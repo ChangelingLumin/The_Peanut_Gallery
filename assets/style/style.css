@@ -3,7 +3,7 @@
 	margin: 0;
 }
 body {
-	background-color: #262626;
+	background-image: C:\Users\Curtis Brandstetter\Desktop\The_Peanut_Gallery-master\assets\pictures\background.jpg;
 	color: white;
 }
 .top {
@@ -21,9 +21,10 @@ body {
 	height: 100%;
 	width: 100%;
 }
-.bodyimg img {
+.backimg {
 	height: 100%;
 	width: 100%;
+	z-index: -1;
 }
 .button1 {
 	background-color: black;
@@ -33,4 +34,25 @@ body {
 	padding: 32px 16px;
 	font-size: 20px;
 	float: right;
+    transition-duration: 0.4s;
+}
+.button1:hover{
+	background-color: #262626;
+}
+.gigbio {
+	float: center;
+	background-color: black;	
+	position: absolute;
+    left: 160px;
+    top: 30%;
+    width: 700px;
+	height: 107px;
+    text-align: left;
+}
+.gigbio img {
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+	float: left;
+	border-radius: 50%;
 }
