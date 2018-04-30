@@ -3,7 +3,6 @@
 	margin: 0;
 }
 body {
-	background-image: C:\Users\Curtis Brandstetter\Desktop\The_Peanut_Gallery-master\assets\pictures\background.jpg;
 	color: white;
 }
 .top {
@@ -16,10 +15,6 @@ body {
     border-radius: 50%;
 	height: 100%;
 	float: left;
-}
-.bodyimg {
-	height: 100%;
-	width: 100%;
 }
 .backimg {
 	height: 100%;
